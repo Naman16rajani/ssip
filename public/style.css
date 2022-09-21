@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-image: url(/ssip/IMAGE/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.header{
+    /* min-height: 100vh; */
+    width: 100%;
+}
+
+.header nav a img{
+    align-self: center;
+    justify-self: center;
+    height: 50px;
+    width: auto;
+}
+
+nav{
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+}
+
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+    
+    /* margin: 3px; */
+    /* border: 2px solid black; */
+    border-radius: 3px;
+    /* width: 80px;     */
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: #4A8DB7;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/* .nav-link ul li a:hover{
+    font-weight: bold;
+} */
+
+.nav-link ul li a::after{
+    content: '';
+    width: 0%;
+    margin: auto;
+    height: 3px;
+    background: #3B7197;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav-link ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+/* main body */
+
+
+/* .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.quote
+{
+    padding-top: 20vh;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+
+.main .u{
+    font-weight: 400;
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+    color: #3B7197;
+    font-size: 50px;
+}
+.main .l{
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+    color: #3B7197;
+    padding-left: 290px;
+    font-size: 50px;
+}
+
+.main .buttons{
+    padding-top: 15px;
+}
+
+.main .log_doc{
+    text-decoration: none;
+    background-color: #4A8DB7;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #4A8DB7;
+}
+
+.main .log_doc:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #4A8DB7;
+    color: #4A8DB7;
+    transition: 0.5s;
+}
+
+.main .log_pat{
+    margin-left: 15px;
+    text-decoration: none;
+    background-color: #4A8DB7;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #4A8DB7;
+}
+
+.main .log_pat:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #4A8DB7;
+    color: #4A8DB7;
+    transition: 0.5s;
+}
